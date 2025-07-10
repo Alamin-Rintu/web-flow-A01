@@ -46,3 +46,32 @@ nav{
     font-size: 65px;
     color: #252432;
 }
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* action styles */
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding:80px 100px;
+    gap: 100px;
+}
+.action-title{
+    font-weight: bold;
+    font-size: 40px;
+    color: #252432;
+}
+.action-subtitle{
+    font-size: 24px;
+    color: #252432;
+    margin-top: 20px;
+}
+.action-picture{
+    width:400px ;
+    border-radius: 48px;
+}
