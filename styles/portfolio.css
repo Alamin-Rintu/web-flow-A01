@@ -12,6 +12,7 @@
 }
 .secondery-bg{
     background-color: #f5f8ff;
+    width: 100%;
 }
 .btn-primary{
      background-color: #4E47FF;
@@ -153,6 +154,7 @@ main{
 /* footer styles */
 .footer{
     background-color:#FFFFFF;
+    /* background-color: #000000; */
 }
 .footer-section{
     text-align: center;
@@ -180,4 +182,54 @@ main{
     justify-content: center;
     gap: 48px;
     /* margin-right: 48px; */
+}
+
+/* card and reviwer style */
+.card-continer{
+    margin-top: 130px;
+    margin-bottom: 115px;
+}
+.card-header{
+    font-weight: bold;
+    font-size: 42px;
+    color:#252432 ;
+    text-align: center;
+}
+.card-section{
+    display: flex;
+    gap: 20px;
+}
+.card{
+    width: 360px;
+    border: 1px solid #F2EDED;
+    border-radius: 14px;
+    padding: 24px 24px;
+    background-color: #FFFFFF;
+}
+.card-title{
+    font-weight: bold;
+    font-size: 24px;
+}
+.card-sub-titile{
+    font-weight: 500;
+    font-size: 18px;
+}
+.reviwer{
+    display: flex;
+    align-items: center;
+
+}
+.reviwer-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 9999px;
+}
+.reviwer-info{
+    margin-right: 12px;
+}
+.reviwer-name{
+    color: #757575;
+}
+.reviwer-date{
+    color: #B3B3B3;
 }
