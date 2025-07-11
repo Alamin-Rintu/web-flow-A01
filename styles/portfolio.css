@@ -10,6 +10,9 @@
 .primary-color{
     color:#4E47FF ;
 }
+.secondery-bg{
+    background-color: #f5f8ff;
+}
 .btn-primary{
      background-color: #4E47FF;
      font-weight: bold;
@@ -56,9 +59,7 @@ main{
 .action{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
-    padding:80px 100px;
+    align-items: center;   
     gap: 100px;
 }
 .action-title{
@@ -147,4 +148,36 @@ main{
     border-radius: 10px;
     margin-bottom: 19px;  
     
+}
+
+/* footer styles */
+.footer{
+    background-color:#FFFFFF;
+}
+.footer-section{
+    text-align: center;
+    padding: 100px 450px;
+}
+.footer-title{
+    font-weight: 900;
+    font-size: 100px;
+    margin-bottom: 8px;
+}
+.footer-description{
+    color:#8987A1 ;
+}
+.footer-navbar ul a{
+    text-decoration: none;
+    color: #8987A1;
+}
+.footer-navbar ul li{
+    list-style: none;
+    
+}
+.footer-navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    /* margin-right: 48px; */
 }
