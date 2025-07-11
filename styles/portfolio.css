@@ -75,3 +75,35 @@ main{
     width:400px ;
     border-radius: 48px;
 }
+
+/* our stats styles */
+.stats{
+    background-color:rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    margin-top: 50px;
+    padding: 50px 140px;
+    text-align: center;
+}
+.stats-title{
+    font-weight: bold;
+    font-size: 38px;
+    color: #252432;
+    margin-bottom: 2px;
+}
+
+.stats-items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 24px;
+}
+.stats-data{
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 2px;
+    margin-bottom: 1px;
+}
+.stats-subtitle{
+    font-size: 20px;
+    color:rgba(0, 0, 0, 0.5) ;
+    
+}
