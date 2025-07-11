@@ -10,10 +10,7 @@
 .primary-color{
     color:#4E47FF ;
 }
-.secondery-bg{
-    background-color: #f5f8ff;
-    width: 100%;
-}
+
 .btn-primary{
      background-color: #4E47FF;
      font-weight: bold;
@@ -23,6 +20,10 @@
      border: none;
      padding: 12px 36px;
 
+}
+.btn-primary:hover {
+  background-color: skyblue; 
+  box-shadow: 0 4px 12px rgba(78, 71, 255, 0.4);
 }
 
 /* nav styles */
@@ -52,9 +53,12 @@ nav{
 }
 
 /* main styles */
+body{
+ background-color: #f5f8ff;
+}
 main{
-    max-width: 1140px;
-    margin: 0 auto;
+    width: 1140px;
+    margin: 0 auto;  
 }
 /* action styles */
 .action{
@@ -114,7 +118,7 @@ main{
 .contact-section{
     display: flex;
     align-items: center;
-    background-color:rgba(255, 255, 255, 0.5);
+    
 }
 .contact-title{
     font-weight: bold;
